@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+.palette__container {
+  max-width: 1392px;
+  width: 100%;
+  min-height: 754px;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(6, 1fr);
+}
+
+div {
+  border: 1px solid red;
+}
+.color__one {
+  background-color: #007f5f;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.color__two {
+  background-color: #80b918;
+  grid-area: 1 / 3 / 4 / 5;
+}
+
+.color__three {
+  background-color: #dddf00;
+  grid-area: 1 / 5 / 2 / 7;
+}
+
+.color__four {
+  background-color: #2b9348;
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.color__five {
+  background-color: #eeef20;
+  grid-area: 2 / 5 / 3 / 7;
+}
+
+.color__six {
+  background-color: #ffff3f;
+  grid-area: 3 / 5 / 4 / 7;
+}
+
+.color__seven {
+  background-color: #55a630;
+}
